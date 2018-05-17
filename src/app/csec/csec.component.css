@@ -1,8 +1,15 @@
 body
-{background-color:black}
+{background-image: url("../../assets/human.jpg");
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    }
+
+  
 
 
+P1{color:yellow}
 
-P1{color:red}
+H1{color:yellow}
 
-H1{color:red}
+P2{color:yellow}

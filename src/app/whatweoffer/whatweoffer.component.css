@@ -1,3 +1,11 @@
+body
+{background-image: url("../../assets/stats.jpg");
+
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 800pt;
+}
+
 p1{color:orangered}
 
 H1{color:red

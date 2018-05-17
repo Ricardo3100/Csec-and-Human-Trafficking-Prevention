@@ -1,11 +1,10 @@
-import { Component, OnInit, style } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-contactus',
   templateUrl: './contactus.component.html',
-    styles: ['./contactus.component.css']
-
-     })
+  styleUrls: ['./contactus.component.css']
+})
 export class ContactusComponent implements OnInit {
 
   constructor() { }
