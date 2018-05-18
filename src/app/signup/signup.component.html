@@ -1,11 +1,24 @@
 <body>
 <H1>Join The Fight Against Human Trafficking</H1>
 
-<form action="/action_page.php" id="usrform" cols="20" rows="10">
-  Comments: <input type="text" name="usrname">
-  <input type="submit">
-</form>
-
-<textarea name="comment" form="usrform">Enter text here...</textarea>
+<form>
+    <div class="form-group">
+      <label for="exampleInputEmail1">Email address</label>
+      <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputName">Full Name</label>
+        <input type="name" class="form-control" id="exampleInputName"  placeholder="Enter name">
+        <small id="emailHelp" class="form-text text-muted">We'll never share your PII with anyone else.</small>
+      </div>
+    <div class="form-group">
+      <label for="exampleInputPhonenumber">Phonenumber</label>
+      <input type="phonenumber" class="form-control" id="exampleInputPhonenumber" placeholder="phonenumber">
+      <small id="emailHelp" class="form-text text-muted">We'll never share your PII with anyone else.</small>
+    </div>
+    
+    <button type="submit" class="btn btn-primary">Submit</button>
+  </form>
 
 </body>

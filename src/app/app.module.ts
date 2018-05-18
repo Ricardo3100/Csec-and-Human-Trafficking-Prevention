@@ -5,7 +5,6 @@ import { AppRoutingModule } from './app-routing.module';
 
 import { AppComponent } from './app.component';
 import { CsecComponent } from './csec/csec.component';
-import { ContactusComponent } from './contactus/contactus.component';
 import { WhatweofferComponent } from './whatweoffer/whatweoffer.component';
 import { SignupComponent } from './signup/signup.component';
 import { GetincarComponent } from './getincar/getincar.component';
@@ -13,6 +12,7 @@ import { GotoschoolComponent } from './gotoschool/gotoschool.component';
 import { DitchschoolComponent } from './ditchschool/ditchschool.component';
 import { DuringcarComponent } from './duringcar/duringcar.component';
 import { AtpoolComponent } from './atpool/atpool.component';
+import { ContactusComponent } from '../webpages/contactus/contactus.component';
 
 @NgModule({
   declarations: [
@@ -26,6 +26,7 @@ import { AtpoolComponent } from './atpool/atpool.component';
     DitchschoolComponent,
     DuringcarComponent,
     AtpoolComponent,
+
   ],
   imports: [
     BrowserModule,

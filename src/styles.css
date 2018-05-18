@@ -4,4 +4,5 @@
         display: inline-block;
     }
 
-    
+    body
+    {background-image: url("./assets/statistics.png")}

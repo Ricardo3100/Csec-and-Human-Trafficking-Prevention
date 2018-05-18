@@ -2,7 +2,6 @@ import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
 import { CsecComponent } from './csec/csec.component';
-import { ContactusComponent } from './contactus/contactus.component';
 import { WhatweofferComponent } from './whatweoffer/whatweoffer.component';
 import { SignupComponent } from './signup/signup.component';
 import { GetincarComponent} from './getincar/getincar.component';
@@ -14,7 +13,6 @@ import { AtpoolComponent } from './atpool/atpool.component';
 const routes: Routes = [
 
 { path: 'csec', component: CsecComponent},
-{ path: 'contactus' , component: ContactusComponent},
 { path: 'whatweoffer', component: WhatweofferComponent},
 { path: 'signup' , component: SignupComponent},
 { path: 'getincar', component: GetincarComponent},
@@ -22,6 +20,8 @@ const routes: Routes = [
 { path: 'ditchschool', component: DitchschoolComponent},
 { path: 'duringcar', component: DuringcarComponent},
 { path: 'atpool', component: AtpoolComponent},
+{ path: '**',
+redirectTo: '/csec'},
 
 ];
 
