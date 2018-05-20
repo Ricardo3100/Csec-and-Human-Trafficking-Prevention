@@ -8,8 +8,7 @@ import { Component, OnInit } from '@angular/core';
 export class GetincarComponent implements OnInit {
 
   constructor() { }
-
-  ngOnInit() {
-  }
-
-}
+  ngOnInit(){
+   
+     
+  }}

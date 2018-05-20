@@ -13,6 +13,8 @@ import { DitchschoolComponent } from './ditchschool/ditchschool.component';
 import { DuringcarComponent } from './duringcar/duringcar.component';
 import { AtpoolComponent } from './atpool/atpool.component';
 import { ContactusComponent } from '../webpages/contactus/contactus.component';
+import { FormsModule}         from '@angular/forms';
+import { HttpClientModule} from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -26,12 +28,13 @@ import { ContactusComponent } from '../webpages/contactus/contactus.component';
     DitchschoolComponent,
     DuringcarComponent,
     AtpoolComponent,
-
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-
+    FormsModule,
+    HttpClientModule
+    
   ],
   providers: [],
   schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
