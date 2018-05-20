@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-getincar',
   templateUrl: './getincar.component.html',
@@ -7,8 +7,15 @@ import { Component, OnInit } from '@angular/core';
 })
 export class GetincarComponent implements OnInit {
 
-  constructor() { }
-  ngOnInit(){
-   
-     
-  }}
+  constructor(private router: Router ) { 
+    
+  }
+ 
+  ngOnInit(){  
+    
+    setTimeout(function() {
+      window.location.href = "http://localhost:4200/duringcar";
+    }, 8000); 
+
+  }
+}
