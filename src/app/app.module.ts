@@ -16,6 +16,7 @@ import { AtpoolComponent } from './atpool/atpool.component';
 import { ContactusComponent } from '../webpages/contactus/contactus.component';
 import { FormsModule}         from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
+import { ResourcesComponent } from './resources/resources.component';
 
 @NgModule({
   declarations: [
@@ -29,6 +30,7 @@ import { HttpClientModule} from '@angular/common/http';
     DitchschoolComponent,
     DuringcarComponent,
     AtpoolComponent,
+    ResourcesComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,5 +1,6 @@
 import { NgModule, Component } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
+import { ResourcesComponent } from './resources/resources.component';
 
 import { CsecComponent } from './csec/csec.component';
 import { WhatweofferComponent } from './whatweoffer/whatweoffer.component';
@@ -20,13 +21,14 @@ const routes: Routes = [
 { path: 'ditchschool', component: DitchschoolComponent},
 { path: 'duringcar', component: DuringcarComponent},
 { path: 'atpool', component: AtpoolComponent},
-{ path: '**',
+{path:  'resources', component:ResourcesComponent},
+  { path: '**',
 redirectTo: '/csec'},
 
 ];
 
 @NgModule({
   imports: [RouterModule.forRoot(routes)],
-  exports: [RouterModule]
+  exports: [RouterModule], 
 })
 export class AppRoutingModule { }

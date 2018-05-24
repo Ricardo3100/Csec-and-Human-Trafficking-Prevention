@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Alert } from 'selenium-webdriver';
 
 @Component({
   selector: 'app-ditchschool',
@@ -8,8 +9,13 @@ import { Component, OnInit } from '@angular/core';
 export class DitchschoolComponent implements OnInit {
 
   constructor() { }
-
-  ngOnInit() {
+  slowAlert(){
+    alert( "this is the wrong choice, you will be sent to the correct answer" );
   }
-
+  ngOnInit() 
+  {setTimeout(function () {
+    window.location.href = "http://localhost:4200/atpool"; //will redirect to your blog page (an ex: blog.html)
+  }, 9000); window.stop();
+  
+  { this.slowAlert()}}
 }
