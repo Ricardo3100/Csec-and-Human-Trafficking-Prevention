@@ -3,9 +3,12 @@ body
 
     background-repeat: no-repeat;
     background-size: cover;
-    height: 900pt}
+    height: 900pt;
+width: 2000pt}
 
-  
+li {
+    display: inline;
+}
 
 
 P1{color:white}
