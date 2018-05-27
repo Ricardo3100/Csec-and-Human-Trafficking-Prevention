@@ -17,6 +17,9 @@ import { ContactusComponent } from '../webpages/contactus/contactus.component';
 import { FormsModule}         from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import { ResourcesComponent } from './resources/resources.component';
+import { StacyComponent } from './stacy/stacy.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { StartingpointComponent } from './startingpoint/startingpoint.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +34,8 @@ import { ResourcesComponent } from './resources/resources.component';
     DuringcarComponent,
     AtpoolComponent,
     ResourcesComponent,
+    StacyComponent,
+    StartingpointComponent,
   ],
   imports: [
     BrowserModule,

@@ -1,0 +1,13 @@
+body
+{background-color: sandybrown;
+height: 1000pt}
+
+.wrapper {
+    text-align: center;
+    background-color: green; /* Green */
+    border: 50pt;
+   font-size: 45pt;
+    padding: 0px 0px;
+
+   
+    }

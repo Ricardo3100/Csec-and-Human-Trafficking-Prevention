@@ -5,3 +5,12 @@ body {
     background-size: cover;
    height: 1200pt;
 width: 1200pt}
+
+.dropbtn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
