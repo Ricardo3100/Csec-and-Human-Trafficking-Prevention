@@ -20,6 +20,8 @@ import { ResourcesComponent } from './resources/resources.component';
 import { StacyComponent } from './stacy/stacy.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StartingpointComponent } from './startingpoint/startingpoint.component';
+import { StayinschoolComponent } from './stayinschool/stayinschool.component';
+import { StudytogetherComponent } from './studytogether/studytogether.component';
 
 @NgModule({
   declarations: [
@@ -36,6 +38,8 @@ import { StartingpointComponent } from './startingpoint/startingpoint.component'
     ResourcesComponent,
     StacyComponent,
     StartingpointComponent,
+    StayinschoolComponent,
+    StudytogetherComponent,
   ],
   imports: [
     BrowserModule,

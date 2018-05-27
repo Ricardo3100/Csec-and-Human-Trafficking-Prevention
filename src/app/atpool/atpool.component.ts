@@ -10,14 +10,15 @@ export class AtpoolComponent implements OnInit {
   constructor() { }
 
   ngOnInit() {
-    var snd1  = new Audio();
-    var src1  = document.createElement("source");
-    src1.type = "audio/mp3";
-    src1.src  = "audio/../../assets/atpool.mp3";
-    snd1.appendChild(src1);
+//     var snd1  = new Audio();
+//     var src1  = document.createElement("source");
+//     src1.type = "audio/mp3";
+//     src1.src  = "audio/../../assets/atpool.mp3";
+//     snd1.appendChild(src1);
     
     
     
-    snd1.play();  }
+//     snd1.play();  }
 
-}
+// }
+  }}

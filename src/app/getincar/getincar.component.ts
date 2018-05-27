@@ -21,16 +21,18 @@ export class GetincarComponent implements OnInit {
 
  
  { this.slowAlert()}
-{ var snd1  = new Audio();
-    var src1  = document.createElement("source");
-    src1.type = "audio/mp3";
-    src1.src  = "audio/../../assets/amycar.mp3";
-    snd1.appendChild(src1);
-    
-    var snd2  = new Audio();
-    var src2  = document.createElement("source");
-    src2.type = "audio/wav";
-    src2.src  = "audio/../../assets/cardooropen.wav";
-    snd2.appendChild(src2);
-    
-    snd1.play(); snd2.play(); window.stop()} }}
+//  { var snd1  = new Audio();
+//   var src1  = document.createElement("source");
+//   src1.type = "audio/mp3";
+//   src1.src  = "audio/../../assets/amycar.mp3";
+//   snd1.appendChild(src1);
+  
+//   var snd2  = new Audio();
+//   var src2  = document.createElement("source");
+//   src2.type = "audio/wav";
+//   src2.src  = "audio/../../assets/cardooropen.wav";
+//   snd2.appendChild(src2);
+  
+//   snd1.play(); snd2.play(); window.stop()} }}
+ }
+}

@@ -12,6 +12,8 @@ import { DuringcarComponent } from './duringcar/duringcar.component';
 import { AtpoolComponent } from './atpool/atpool.component';
 import { StacyComponent } from './stacy/stacy.component';
 import { StartingpointComponent } from './startingpoint/startingpoint.component';
+import { StayinschoolComponent } from './stayinschool/stayinschool.component';
+import { StudytogetherComponent } from './studytogether/studytogether.component';
 
 
 
@@ -29,8 +31,9 @@ const routes: Routes = [
   { path: 'resources', component: ResourcesComponent },
   { path: 'stacy', component: StacyComponent },
   { path: 'startingpoint', component: StartingpointComponent},
-    
-    
+  { path: 'stayinschool', component: StayinschoolComponent}  ,
+  { path:'studytogether', component: StudytogetherComponent} ,
+  
     
    { path: '**',
     redirectTo: '/csec'
