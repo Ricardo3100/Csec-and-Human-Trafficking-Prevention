@@ -1,0 +1,37 @@
+body
+{background-color: springgreen}
+
+body
+{background-color: teal;
+height: 400pt
+}
+
+.container {
+  display:flex;
+    flex-direction: row
+}
+
+.wrapper {
+    text-align: center;
+    border: 50pt;
+   font-size: 20t;
+    padding: 15px 32px;}
+
+.button {font-size: 50pt;
+    position: absolute;
+    top: 50%;
+    background-color: red; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;}
+
+P1{color:white}
+p1{font-size: 18pt}
+H1{color:yellow}
+
+P2{color:red}
+p2{font-size:19}
+P3{FONT-size:19}
+p3{color:red}
+H2{COLOR:YELLOW}
+H3{COLOR:YELLOW}
