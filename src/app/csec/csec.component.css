@@ -3,7 +3,7 @@ body
 
 body
 {background-color: teal;
-height: 400pt
+height: 500pt
 }
 
 .container {
@@ -25,13 +25,30 @@ height: 400pt
     color: white;
     padding: 15px 32px;}
 
-P1{color:white}
+P1{
+    color:white}
 p1{font-size: 18pt}
-H1{color:yellow}
+P1{  padding: 30pt;}
+H1{color:white}
+h1{text-align: center}
+#pizza{
+    text-align:  center;
+    width: 500px;
+    display: block;
+    margin:auto;
+}
+ .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    }
+    
+    .wrapper {
+    text-align: center;
+    border: 50pt;
+   font-size: 45pt;
+    padding: 0px 0px;
 
-P2{color:red}
-p2{font-size:19}
-P3{FONT-size:19}
-p3{color:red}
-H2{COLOR:YELLOW}
-H3{COLOR:YELLOW}
+   
+    }

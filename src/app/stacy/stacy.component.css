@@ -1,10 +1,38 @@
 body
-{background-color: sandybrown;
-height: 1000pt}
+{background-color: teal;
+height:100%}
 
 .wrapper {
     text-align: center;
-    background-color: green; /* Green */
+    border: 50pt;
+   font-size: 15pt;
+    padding: 0px 0px;
+
+   
+    }
+
+    .center {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+    padding: 0pt}
+
+H1    {text-align:  center;
+    padding: 0pt;
+    display: block;
+    margin:auto;
+    color: white
+}
+p1{color:white;
+    text-align:  center;
+    padding: 30pt;
+    display: block;
+    margin:auto;
+font-size: 18pt}
+
+.wrapper {
+    text-align: center;
     border: 50pt;
    font-size: 45pt;
     padding: 0px 0px;

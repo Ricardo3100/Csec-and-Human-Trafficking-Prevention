@@ -1,10 +1,10 @@
 body
-{background-image: url("../../assets/duringcar.jpg");
-
-    background-repeat: no-repeat;
-    background-size: cover;
-   height: 1200pt;
-width: 1200pt}
-H1 {color:red}
-H2 {color:yellow}
-H3 {color:yellow}
+{background-color: teal;
+height:400pt
+    }
+p1 {color:white;
+    text-align:  center;
+    padding: 30pt;
+    display: block;
+    margin:auto;
+font-size: 18pt}
