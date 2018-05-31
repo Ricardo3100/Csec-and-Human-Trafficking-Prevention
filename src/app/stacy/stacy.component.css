@@ -1,7 +1,7 @@
 body
 {background-color: teal;
-height:100%;
-width: 1900pt}
+height:600pt;
+width: 800pt}
 
 .wrapper {
     text-align: center;
@@ -11,7 +11,6 @@ width: 1900pt}
 
    
     }
-
     .center {
         display: block;
         margin-left: auto;
@@ -22,19 +21,21 @@ width: 1900pt}
 H1    {text-align:  center;
     padding: 0pt;
     display: block;
-    margin:auto;
-    color: white
-}
-.container{color:white;
+    margin:0pt;
+    color: white}
+
+ h2{text-align: left}
+
+.container{
     text-align:  center;
     display: block;
     margin:auto;
-    width: 10px;
+    width: 1000px;
 font-size: 18pt;
     display:flex;
       flex-direction: row;
       flex-wrap: nowrap;
-    
+    float: left;
     }
 
 .wrapper {
@@ -45,3 +46,33 @@ font-size: 18pt;
 
    
     }
+
+.card {
+    margin: 0 auto; /* Added */
+    float: left; /* Added */
+    margin-bottom: 10px; /* Added */
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+padding: 30pt;
+height:390pt ;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: 50pt;
+    width: 50%;
+}
+
+#pizza{ margin: 0 auto; /* Added */
+    float: right; /* Added */
+    margin-bottom: 10px; /* Added */
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+padding: 30pt;
+height:230pt ;
+
+}
