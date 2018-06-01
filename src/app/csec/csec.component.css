@@ -3,8 +3,8 @@ body
 
 body
 {background-color: teal;
-height: 500pt
-}
+height: 500pt;
+;}
 
 .container {
   display:flex;
