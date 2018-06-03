@@ -1,12 +1,5 @@
 body
-{background-image: url("../../assets/care.jpg")}
-H1{color:yellow;}
-body
-{background-image: url("../../assets/help.jpg");
 
-    background-repeat: no-repeat;
-    background-size: 100%;
-    height: 600pt;
-}
+H1{color:white;}
 
-P1{color:red};
+P1{color:white};

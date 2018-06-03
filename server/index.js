@@ -9,9 +9,11 @@ var nodemailer = require('nodemailer');
 var hbs = require('nodemailer-express-handlebars');
 
 var path = require('path');
+var mongoose= require('mongoose')
 
+var db= mongoose.connect('mongodb://<tyrolizard>:<hotmail7>@ds247170.mlab.com:47170/csec')
 
-
+console.log('sucessfully connected to database')
 var app = new express();
 
 

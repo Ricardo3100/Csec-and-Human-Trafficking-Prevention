@@ -17,20 +17,17 @@ height: 500pt;
    font-size: 20t;
     padding: 15px 32px;}
 
-.button {font-size: 50pt;
-    position: absolute;
-    top: 50%;
-    background-color: red; /* Green */
-    border: none;
-    color: white;
-    padding: 15px 32px;}
+
 
 P1{
     color:white}
 p1{font-size: 18pt}
 P1{  padding: 30pt;}
 H1{color:white}
-h1{text-align: center}
+h1{text-align: center;
+padding-top:-300pt;
+
+}
 #pizza{
     text-align:  left;
     width: 500px;
@@ -43,13 +40,62 @@ h1{text-align: center}
         margin-right: auto;
         width: 50%;
     }
-    
+    .container
+    {margin-top: -50pt;
+    bottom: 50;
+
+}
     .wrapper {
-    text-align: center;
+    text-align: right;
     border: 50pt;
    font-size: 45pt;
     padding: 0px 0px;
-
+padding-left:350pt;
    
     }
 .div{align-content: center}
+
+.navbar{
+    float: right;
+    background-color: teal;
+}
+
+.sideNavBar{
+    margin-top:0px;
+    margin-right: 20pt;
+}
+
+    ul {
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        width: 200px;
+        background-color: #f1f1f1;
+        border: 1px solid #555;
+    }
+    
+    ul a {
+        display: block;
+        color: #000;
+        padding: 8px 0px;
+        text-decoration: none;
+    }
+    
+    ul {
+        text-align: center;
+        border-bottom: 1px solid #555;
+    }
+    
+    ul:last-child {
+        border-bottom: none;
+    }
+    
+    ul a.active {
+        background-color: #4CAF50;
+        color: white;
+    }
+    
+    ul a:hover:not(.active) {
+        background-color: #555;
+        color: white;
+    }
