@@ -1,9 +1,9 @@
 body
-{background-color: springgreen}
+
 
 body
 {background-color: teal;
-height: 500pt;
+height: 0pt;
 ;}
 
 .container {
@@ -13,7 +13,7 @@ height: 500pt;
 
 .wrapper {
     text-align: center;
-    border: 50pt;
+    border: 20pt;
    font-size: 20t;
     padding: 15px 32px;}
 
@@ -21,13 +21,13 @@ height: 500pt;
 
 P1{
     color:white}
-p1{font-size: 18pt}
-P1{  padding: 30pt;}
+    p1{font-size: 18pt}
 H1{color:white}
 h1{text-align: center;
-padding-top:-300pt;
-
-}
+padding: top 0pt;
+padding-bottom: 800pt;
+height:50pt
+ ;}
 #pizza{
     text-align:  left;
     width: 500px;
@@ -53,16 +53,23 @@ padding-top:-300pt;
 padding-left:350pt;
    
     }
+
+    #taco{
+  padding-right: 10pt;
+    }
 .div{align-content: center}
 
 .navbar{
     float: right;
     background-color: teal;
+    padding-bottom:0pt;
+    margin-top: 80pt;
+    
 }
 
-.sideNavBar{
-    margin-top:0px;
-    margin-right: 20pt;
+#sideNavBar{
+   margin-top: -169pt;
+   margin-left: -40pt;
 }
 
     ul {
@@ -72,27 +79,29 @@ padding-left:350pt;
         width: 200px;
         background-color: #f1f1f1;
         border: 1px solid #555;
-    }
+    
+;
+
+}
     
     ul a {
         display: block;
         color: #000;
         padding: 8px 0px;
-        text-decoration: none;
+        position: top;
+       ;
     }
     
     ul {
         text-align: center;
         border-bottom: 1px solid #555;
+        
     }
-    
-    ul:last-child {
-        border-bottom: none;
-    }
+   
     
     ul a.active {
         background-color: #4CAF50;
-        color: white;
+        color: rgb(238, 15, 15);
     }
     
     ul a:hover:not(.active) {
