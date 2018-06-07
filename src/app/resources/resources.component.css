@@ -1,10 +1,38 @@
-.container {
-    display:inline ;
-      flex-direction: row-reverse;
-  }
-h5
-{font-size: 18pt}
+div.row
+{flex-direction:column-reverse;}
 
-body
+
+div.container
+{display: inline-flex}
+
+
+h5{color:white;}
+
+h5{font-size: 18pt;}
+
+div.col
+{flex-direction: row;}
+div.lft
+{flex-direction: row-reverse;}
+div.card
+
 {background-color: teal;
-height: 300pt}
+height: 240pt;}
+
+
+
+a.btn
+{color: white;}
+body
+
+{background-color: #008080;
+
+  height: 300pt}
+
+.Live Well sandiego
+{height: 286;
+width:180;
+}
+.card-img-top
+{height: 50pt;
+widows: 50pt;}

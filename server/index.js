@@ -15,8 +15,8 @@ var db= mongoose.connect('mongodb://<tyrolizard>:<hotmail7>@ds247170.mlab.com:47
 
 console.log('sucessfully connected to database')
 var app = new express();
-
-
+db.on('error',console.error.bind(console,'connection errors:'));
+do.once('open',function(){console.log('sucessfully connected to database');
 
 
 
@@ -34,7 +34,6 @@ app.use(cors({
 
     credentials: true
 
-}));
 
 
 

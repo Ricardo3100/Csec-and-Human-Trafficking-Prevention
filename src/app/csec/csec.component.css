@@ -1,10 +1,6 @@
 body
+{height: 505;}
 
-
-body
-{background-color: teal;
-height: 0pt;
-;}
 
 .container {
   display:flex;
@@ -15,7 +11,8 @@ height: 0pt;
     text-align: center;
     border: 20pt;
    font-size: 20t;
-    padding: 15px 32px;}
+margin-right: 200pt;
+   padding: 15px 32px;}
 
 
 
@@ -25,15 +22,10 @@ P1{
 H1{color:white}
 h1{text-align: center;
 padding: top 0pt;
-padding-bottom: 800pt;
+padding-bottom: ;
 height:50pt
  ;}
-#pizza{
-    text-align:  left;
-    width: 500px;
-    display: block;
-    margin:auto;
-}
+
  .center {
         display: block;
         margin-left: auto;
@@ -50,12 +42,12 @@ height:50pt
     border: 50pt;
    font-size: 45pt;
     padding: 0px 0px;
-padding-left:350pt;
+padding-left:380pt;
    
     }
 
     #taco{
-  padding-right: 10pt;
+  margin-right: 200pt;
     }
 .div{align-content: center}
 
@@ -68,8 +60,8 @@ padding-left:350pt;
 }
 
 #sideNavBar{
-   margin-top: -169pt;
-   margin-left: -40pt;
+   margin-top: -278pt;
+   margin-left: -50pt;
 }
 
     ul {
@@ -108,3 +100,7 @@ padding-left:350pt;
         background-color: #555;
         color: white;
     }
+
+    .img
+    {margin-top: 800pt;
+    margin-bottom: 600pt;}
