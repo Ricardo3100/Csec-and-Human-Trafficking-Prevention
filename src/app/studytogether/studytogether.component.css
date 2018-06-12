@@ -1,3 +1,26 @@
 body
 {background-color: teal;
-height: 1500pt}
+height: 200pt}
+h1{
+    color: white;
+text-align: center;
+font-size: 24px;
+width: 750px;
+display:block;
+margin: auto;
+padding: 30pt;
+}
+h2{
+    color: white;
+text-align: center;
+font-size: 24px;
+width: 750px;
+display:block;
+margin: auto;
+padding: 30pt
+}
+video{
+display: block;
+margin: auto;
+margin-top: -40pt; ;
+}

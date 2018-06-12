@@ -2,9 +2,23 @@ body
 {background-color: teal;
 height:400pt
     }
+
+.dropdown{
+    text-align:center;
+    display:block;
+    margin: auto;
+    font-size: 24px;
+}
 p1 {color:white;
     text-align:  center;
     padding: 30pt;
     display: block;
     margin:auto;
 font-size: 18pt}
+
+#duringcar{
+display: block;
+margin: auto;
+margin-top: -60pt;
+}
+

@@ -22,6 +22,7 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { StartingpointComponent } from './startingpoint/startingpoint.component';
 import { StayinschoolComponent } from './stayinschool/stayinschool.component';
 import { StudytogetherComponent } from './studytogether/studytogether.component';
+import { HomeComponent } from './home/home.component';
 
 @NgModule({
   declarations: [
@@ -40,6 +41,7 @@ import { StudytogetherComponent } from './studytogether/studytogether.component'
     StartingpointComponent,
     StayinschoolComponent,
     StudytogetherComponent,
+    HomeComponent,
   ],
   imports: [
     BrowserModule,

@@ -560,8 +560,8 @@ app.post('/sendEmail', function (request, response) {
             port: 465,
             secure: true, // true for 465, false for other ports
             auth: {
-                user: "ricardo.rodriguez@gmail.com", // generated ethereal user
-                pass: account.pass // generated ethereal password
+                user: "ricardo.rodriguez3100@gmail.com", // generated ethereal user
+                pass: Cl@$$icReunion2731" // generated ethereal password
             }
         });
     

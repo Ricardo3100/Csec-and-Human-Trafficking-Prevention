@@ -1,7 +1,31 @@
-body
-{background-image: url("../../assets/atpool.jpg");
+h1{
+    color: white;
+text-align: center;
+font-size: 24px;
+width: 750px;
+display:block;
+margin: auto;
+}
+.dropdown{
+    display: block;
+    margin: auto;
+}
 
-    background-repeat: no-repeat;
-    background-size: cover;
-   height: 1200pt;
-width: 1200pt}
+.container
+{
+    display:block;
+    margin:auto;
+    height: 50%;
+    width: 20pt;
+}
+.dropdown
+{display: block;
+float:right;
+margin-right:200pt;
+}
+
+
+iframe {
+    display: block;
+    margin: 0 auto;
+ }

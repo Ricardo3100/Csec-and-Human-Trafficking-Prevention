@@ -14,6 +14,7 @@ import { StacyComponent } from './stacy/stacy.component';
 import { StartingpointComponent } from './startingpoint/startingpoint.component';
 import { StayinschoolComponent } from './stayinschool/stayinschool.component';
 import { StudytogetherComponent } from './studytogether/studytogether.component';
+import { HomeComponent } from './home/home.component';
 
 
 
@@ -33,10 +34,10 @@ const routes: Routes = [
   { path: 'startingpoint', component: StartingpointComponent},
   { path: 'stayinschool', component: StayinschoolComponent}  ,
   { path:'studytogether', component: StudytogetherComponent} ,
-  
+  { path:'home', component:HomeComponent},
     
    { path: '**',
-    redirectTo: '/csec'
+    redirectTo: '/home'
   },
 
 ];

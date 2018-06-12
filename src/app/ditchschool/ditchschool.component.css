@@ -1,7 +1,7 @@
-body
-{background-image: url("../../assets/ditchschool.jpg");
-
-    background-repeat: no-repeat;
-    background-size: cover;
-   height: 1200pt;
-width: 2000pt}
+h1{
+    color: white;
+position: relative;
+text-align: center;
+top: 150px;
+font-size: 24px;
+}

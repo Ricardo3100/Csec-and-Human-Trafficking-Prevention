@@ -16,15 +16,17 @@ margin-right: 200pt;
 
 
 
-P1{
+h1{
     color:white}
     p1{font-size: 18pt}
-H1{color:white}
-h1{text-align: center;
-padding: top 0pt;
-padding-bottom: ;
-height:50pt
- ;}
+
+#traffickingHeader{
+    text-align: center;
+    padding-top: 10pt;
+    padding-bottom:10px;
+    height:50pt;
+    color:white;
+}
 
  .center {
         display: block;
@@ -37,69 +39,19 @@ height:50pt
     bottom: 50;
 
 }
-    .wrapper {
-    text-align: right;
+.wrapper {
+    display: block;
     border: 50pt;
-   font-size: 45pt;
-    padding: 0px 0px;
-padding-left:380pt;
-   
-    }
+   font-size: 24pt;
+    margin:auto;
+    
+}
 
-    #taco{
-  margin-right: 200pt;
-    }
+#stacyImg{
+    display:block;
+    margin: auto;
+}
 .div{align-content: center}
-
-.navbar{
-    float: right;
-    background-color: teal;
-    padding-bottom:0pt;
-    margin-top: 80pt;
-    
-}
-
-#sideNavBar{
-   margin-top: -278pt;
-   margin-left: -50pt;
-}
-
-    ul {
-        list-style-type: none;
-        margin: 0;
-        padding: 0;
-        width: 200px;
-        background-color: #f1f1f1;
-        border: 1px solid #555;
-    
-;
-
-}
-    
-    ul a {
-        display: block;
-        color: #000;
-        padding: 8px 0px;
-        position: top;
-       ;
-    }
-    
-    ul {
-        text-align: center;
-        border-bottom: 1px solid #555;
-        
-    }
-   
-    
-    ul a.active {
-        background-color: #4CAF50;
-        color: rgb(238, 15, 15);
-    }
-    
-    ul a:hover:not(.active) {
-        background-color: #555;
-        color: white;
-    }
 
     .img
     {margin-top: 800pt;

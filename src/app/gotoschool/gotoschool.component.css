@@ -1,9 +1,17 @@
+body
+{background-color: teal;
+height:400pt
+    }
 
-body {
-    background-image: url("../../assets/gotoschool.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-   height: 1200pt;
-width: 1200pt}
-
-
+.dropdown{
+    text-align:center;
+    display:block;
+    margin: auto;
+    font-size: 24px;
+}
+p1 {color:white;
+    text-align:  center;
+    padding: 30pt;
+    display: block;
+    margin:auto;
+font-size: 24pt}

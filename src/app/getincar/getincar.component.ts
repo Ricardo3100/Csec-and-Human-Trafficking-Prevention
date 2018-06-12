@@ -13,14 +13,16 @@ export class GetincarComponent implements OnInit {
   slowAlert(){
     alert( "this is the wrong choice, you will be sent to the correct answer" );
   }
-   
- ngOnInit()
- { setTimeout(function () {
-  window.location.href = "http://localhost:4200/duringcar"; //will redirect to your blog page (an ex: blog.html)
-}, 10000); 
+  
 
- 
- { this.slowAlert()}
+ ngOnInit(){
+//  { setTimeout(function () {
+//    //will redirect to your blog page (an ex: blog.html)
+// }, 3000); 
+
+
+this.slowAlert()
+window.location.href = "http://localhost:4200/duringcar";
 //  { var snd1  = new Audio();
 //   var src1  = document.createElement("source");
 //   src1.type = "audio/mp3";

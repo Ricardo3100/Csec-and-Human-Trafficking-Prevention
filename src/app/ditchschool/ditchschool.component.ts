@@ -15,7 +15,7 @@ export class DitchschoolComponent implements OnInit {
   ngOnInit() 
   {setTimeout(function () {
     window.location.href = "http://localhost:4200/atpool"; //will redirect to your blog page (an ex: blog.html)
-  }, 9000); window.stop();
+  }, 8000); window.stop();
   
   { this.slowAlert()}}
 }
