@@ -3,10 +3,13 @@ While at the pool Stacy was approached by a strange man who asked her for direct
 As she provided the directions out of the blue a second man walked up and knocked her out. Stacy eventually woke up to find herself chained up in a small room. She was eventually placed in an unknown home where she would be treated as a slave to raise a family's children and was repeatedly abused until the age of 24 when she sought help. 
 
 </h1>
-
-    <iframe id="youtube" width="560" height="315" src="https://www.youtube.com/embed/c1LQXpYBfyk?autoplay=1" frameborder="0" allow="autoplay; encrypted-media"  allowfullscreen></iframe>
-
- <div class="dropdown">
+<video id="pool" (ended)="showButton=true"   autoplay width="420" height="340" controls>
+        <source src="../../assets/pool.mp4" type="video/mp4">
+          <embed hidden="true" volume="100">
+      </video>  
+    
+   
+ <div class="dropdown" *ngIf="showButton">
         <button class="btn btn-secondary dropdown-toggle" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
             Retry
         </button>
@@ -15,3 +18,6 @@ As she provided the directions out of the blue a second man walked up and knocke
           
         </div>
       </div>
+     
+
+      

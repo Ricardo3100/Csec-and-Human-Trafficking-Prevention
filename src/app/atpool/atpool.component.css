@@ -6,11 +6,10 @@ width: 750px;
 display:block;
 margin: auto;
 }
-.dropdown{
-    display: block;
-    margin: auto;
-}
 
+#pool
+{display: block;
+margin: auto;}
 .container
 {
     display:block;
@@ -20,12 +19,12 @@ margin: auto;
 }
 .dropdown
 {display: block;
-float:right;
+
 margin-right:200pt;
 }
 
 
-iframe {
+video {
     display: block;
-    margin: 0 auto;
+    margin:  auto;
  }

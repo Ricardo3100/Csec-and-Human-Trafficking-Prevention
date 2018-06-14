@@ -6,19 +6,8 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./atpool.component.css']
 })
 export class AtpoolComponent implements OnInit {
-
+  showButton = false;
   constructor() { }
 
-  ngOnInit() {
-//     var snd1  = new Audio();
-//     var src1  = document.createElement("source");
-//     src1.type = "audio/mp3";
-//     src1.src  = "audio/../../assets/atpool.mp3";
-//     snd1.appendChild(src1);
-    
-    
-    
-//     snd1.play();  }
-
-// }
+  ngOnInit() { 
   }}

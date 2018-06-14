@@ -2,13 +2,19 @@
     color: white;
     text-align: center;
 }
+h1
+{color: white;
+text-align: center;}
+
 #introVideo{
     display: block;
     margin: auto;
     padding-top: 20pt;
 }
 
-
+.wrapper
+{display: block;
+text-align: center;}
 #sideNavBar{
     z-index: 2;
     padding-left: 10px;
