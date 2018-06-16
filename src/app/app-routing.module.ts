@@ -4,7 +4,6 @@ import { ResourcesComponent } from './resources/resources.component';
 
 import { CsecComponent } from './csec/csec.component';
 import { WhatweofferComponent } from './whatweoffer/whatweoffer.component';
-import { SignupComponent } from './signup/signup.component';
 import { GetincarComponent } from './getincar/getincar.component';
 import { DitchschoolComponent } from './ditchschool/ditchschool.component';
 import { GotoschoolComponent } from './gotoschool/gotoschool.component';
@@ -15,6 +14,7 @@ import { StartingpointComponent } from './startingpoint/startingpoint.component'
 import { StayinschoolComponent } from './stayinschool/stayinschool.component';
 import { StudytogetherComponent } from './studytogether/studytogether.component';
 import { HomeComponent } from './home/home.component';
+import { ContactusComponent } from './contactus/contactus.component';
 
 
 
@@ -23,7 +23,6 @@ const routes: Routes = [
 
   { path: 'csec', component: CsecComponent },
   { path: 'whatweoffer', component: WhatweofferComponent },
-  { path: 'signup', component: SignupComponent },
   { path: 'getincar', component: GetincarComponent },
   { path: 'gotoschool', component: GotoschoolComponent },
   { path: 'ditchschool', component: DitchschoolComponent },
@@ -35,7 +34,7 @@ const routes: Routes = [
   { path: 'stayinschool', component: StayinschoolComponent}  ,
   { path:'studytogether', component: StudytogetherComponent} ,
   { path:'home', component:HomeComponent},
-    
+  { path:'contactus', component: ContactusComponent},  
    { path: '**',
     redirectTo: '/home'
   },

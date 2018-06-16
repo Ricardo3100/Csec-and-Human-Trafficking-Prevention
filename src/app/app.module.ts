@@ -7,13 +7,12 @@ import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CsecComponent } from './csec/csec.component';
 import { WhatweofferComponent } from './whatweoffer/whatweoffer.component';
-import { SignupComponent } from './signup/signup.component';
 import { GetincarComponent } from './getincar/getincar.component';
 import { GotoschoolComponent } from './gotoschool/gotoschool.component';
 import { DitchschoolComponent } from './ditchschool/ditchschool.component';
 import { DuringcarComponent } from './duringcar/duringcar.component';
 import { AtpoolComponent } from './atpool/atpool.component';
-import { ContactusComponent } from '../webpages/contactus/contactus.component';
+import { ContactusComponent } from './contactus/contactus.component';
 import { FormsModule}         from '@angular/forms';
 import { HttpClientModule} from '@angular/common/http';
 import { ResourcesComponent } from './resources/resources.component';
@@ -23,14 +22,12 @@ import { StartingpointComponent } from './startingpoint/startingpoint.component'
 import { StayinschoolComponent } from './stayinschool/stayinschool.component';
 import { StudytogetherComponent } from './studytogether/studytogether.component';
 import { HomeComponent } from './home/home.component';
-
 @NgModule({
   declarations: [
     AppComponent,
     ContactusComponent,
     CsecComponent,
     WhatweofferComponent,
-    SignupComponent,
     GetincarComponent,
     GotoschoolComponent,
     DitchschoolComponent,
@@ -54,4 +51,4 @@ import { HomeComponent } from './home/home.component';
   schemas: [CUSTOM_ELEMENTS_SCHEMA, NO_ERRORS_SCHEMA],
   bootstrap: [AppComponent]
 })
-export class AppModule { }
+export class AppModule{ ;  }
